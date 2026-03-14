@@ -20,9 +20,9 @@ El análisis se desarrolló en las siguientes etapas:
 
 # Principales hallazgos
 
-Perfil del Cliente: Clientes con alta antigüedad (~80 meses) y usuarios de Triple Play.
-Puntos de dolor: El 37.8% presenta reclamos mensuales y el 12.1% sufre interrupciones de servicio (downtime).
-Motivos de cancelación: Facturación, fallas técnicas y deficiencias en la experiencia del cliente.
+1. Perfil del Cliente: Clientes con alta antigüedad (~80 meses) y usuarios de Triple Play.
+2. Puntos de dolor: El 37.8% presenta reclamos mensuales y el 12.1% sufre interrupciones de servicio (downtime).
+3. Motivos de cancelación: Facturación, fallas técnicas y deficiencias en la experiencia del cliente.
 
 ---
 
@@ -61,7 +61,6 @@ Clientes con downtime | 12.1% | <10% |
 ---
 
 # Ejecución del análisis
-
-El dataset principal se carga desde Google Drive debido a su tamaño.
-Las transcripciones de llamadas se cargan desde este repositorio
-El análisis completo se encuentra en el notebook: notebooks/PruebaTecnica_Melisa.ipynb
+1. El dataset principal se carga desde Google Drive debido a su tamaño.
+2. Las transcripciones de llamadas se cargan desde este repositorio
+3. El análisis completo se encuentra en el notebook: notebooks/PruebaTecnica_Melisa.ipynb
