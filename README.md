@@ -2,7 +2,7 @@
 Laura Melisa Patarroyo Godoy
 
 ## Problema de negocio
-Una compañía de telecomunicaciones peruana busca establecer accionables estratégicos y de negocio orientados a reducir las intenciones de cancelación de servicio y el abandono de clientes (churn). Para lo anterior, se realizó una segmentación de clientes y se identificó un clúster crítico (cluster 3) con alta propensión al churn y elevadas intenciones de cancelación. O
+Una compañía de telecomunicaciones peruana busca establecer accionables estratégicos y de negocio orientados a reducir las intenciones de cancelación de servicio y el abandono de clientes (churn). Para lo anterior, se realizó una segmentación de clientes y se identificó un clúster crítico (cluster 3) con alta propensión al churn y elevadas intenciones de cancelación.
 El objetivo de este análisis es identificar los principales motivos de cancelación y diseñar iniciativas focalizadas para este Cluster clave (cluster3), con el fin de reducir el churn
 
 ---
