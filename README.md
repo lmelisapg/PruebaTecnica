@@ -39,14 +39,33 @@ El análisis se desarrolló en las siguientes etapas:
 - Bundles de fidelización con servicios de streaming.
 
 ---
-
 # Métricas de impacto
 
 | Métrica | Valor actual | Objetivo |
-Intención de cancelación | 19.5% | 14–16% |
-Clientes con reclamos | 37.8% | <34% |
-Clientes con downtime | 12.1% | <10% |
+|--------|-------------|---------|
+| Intención de cancelación | 19.5% | 14–16% |
+| Clientes con reclamos | 37.8% | <34% |
+| Clientes con downtime | 12.1% | <10% |
 
+---
+## Tecnologías utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Seaborn / Matplotlib
+- Scikit-learn
+- NLTK (NLP)
+- Jupyter Notebook
+
+---
+## Fuentes de datos
+
+El análisis utiliza dos datasets:
+
+1. Dataset de clientes (Cluster 3)
+2. Transcripciones de llamadas
+3. Diccionario de datos.
 
 # Ejecución del análisis
 1. El dataset principal se carga desde Google Drive debido a su tamaño.
