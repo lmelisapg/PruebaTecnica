@@ -3,7 +3,7 @@ Laura Melisa Patarroyo Godoy
 
 ## Problema de negocio
 Una compañía de telecomunicaciones peruana busca establecer accionables estratégicos y de negocio orientados a reducir las intenciones de cancelación de servicio y el abandono de clientes (churn). Para lo anterior, se realizó una segmentación de clientes y se identificó un clúster crítico (cluster 3) con alta propensión al churn y elevadas intenciones de cancelación.
-El objetivo de este análisis es identificar los principales motivos de cancelación y diseñar iniciativas focalizadas para este Cluster clave (cluster3), con el fin de reducir el churn
+El objetivo de este análisis es diseñar iniciativas focalizadas para este Cluster clave (cluster3), con el fin de reducir el churn, basadas en la identificación y hallazgos de los principales motivos de cancelación.
 
 ---
 
@@ -20,8 +20,8 @@ El análisis se desarrolló en las siguientes etapas:
 
 # Principales hallazgos
 
-1. Perfil del Cliente: Clientes con alta antigüedad (~80 meses) y usuarios de Triple Play.
-2. Puntos de dolor: El 37.8% presenta reclamos mensuales y el 12.1% sufre interrupciones de servicio (downtime).
+1. Perfil del Cliente: Clientes con alta antigüedad (aprox 80 meses) y usuarios de Triple Play.
+2. Puntos de dolor: El 37.8% presenta reclamos mensuales y el 12.1% sufre interrupciones de servicio.
 3. Motivos de cancelación: Facturación, fallas técnicas y deficiencias en la experiencia del cliente.
 
 ---
@@ -29,7 +29,7 @@ El análisis se desarrolló en las siguientes etapas:
 # Iniciativas estratégicas propuestas
 1. Acciones Reactivas
 - Gestión prioritaria de reclamos.
-- Protocolo de resolución acelerada para fallas técnicas.
+- Protocolo de resolución prioritaria y acelerada para fallas técnicas.
 - Resolución rápida de inconsistencias en facturación.
 
 2.Proactivas
@@ -47,18 +47,6 @@ Intención de cancelación | 19.5% | 14–16% |
 Clientes con reclamos | 37.8% | <34% |
 Clientes con downtime | 12.1% | <10% |
 
----
-
-# Tecnologías utilizadas
-- Python
-- Pandas
-- Numpy
-- Seaborn
-- Matplotlib
-- Scikit-learn
-- NLP (CountVectorizer)
-
----
 
 # Ejecución del análisis
 1. El dataset principal se carga desde Google Drive debido a su tamaño.
