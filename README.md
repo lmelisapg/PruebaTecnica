@@ -32,7 +32,7 @@ El análisis se desarrolló en las siguientes etapas:
 - Protocolo de resolución prioritaria y acelerada para fallas técnicas.
 - Resolución rápida de inconsistencias en facturación.
 
-2.Proactivas
+2. Acciones Proactivas
 - Alertas preventivas de facturación.
 - Monitoreo preventivo de red.
 - Programas de seguimiento para clientes con reclamos recurrentes.
