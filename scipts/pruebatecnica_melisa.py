@@ -150,15 +150,13 @@ cluster["BAN_INTENCION_CANCELACION"].mean()*100
 cluster["BAN_MORA_30"].mean()*100
 ## Solo el 1% presenta una mora de más de 30 días.
 
-# Calcular la correlación numérica entre la variable de reclamos mes vs las intenciones de cancelación
+# Correlación numérica entre la variable de reclamos mes vs las intenciones de cancelación
 correlacion = cluster['VAL_RECLAMOS_MES'].corr(cluster['BAN_INTENCION_CANCELACION'])
 print(f"La correlación entre reclamos e intención de cancelación es: {correlacion:.2f}")
 
 """Al contrario de lo que pensaba, el resultado muestra una correlación baja entre ambas variables, por lo que la relación directa entre reclamos y cancelación no es fuerte.
 
 Esto podría sugerir que puede existir un churn silencioso, es decir, no no todos los clientes que cancelan necesariamente presentan reclamos previos.
-
-Por otra parte, el churn podría estar influenciado también por otros factores como percepción de valor del servicio, facturación o problemas técnicos.
 """
 
 plt.figure(figsize=(10, 6))
@@ -354,7 +352,7 @@ plt.show()
 * Las palabras factura, valor ,tarifa, pagar, cuenta, mes, podría clasificarse en la razón: problemas con facturación o cobros
 * Las palabras cancelar, cancelar, proceso, podría clasificarse en la razón:
 clientes solicitando directamente cancelar el servicio
-* Las palabras internet, servicio, servicios, linea podría clasificarse en la razón: problemas relacionados con el servicio y calidad del mismo
+* Las palabras internet, servicio, servicios, sistema, linea podría clasificarse en la razón: problemas relacionados con el servicio y calidad del mismo
 
 ## **Relación EDA - NLP**
 
